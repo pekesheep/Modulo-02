@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Hotel-container{
+    float: left;
+    background-color: rgb(236, 236, 236);
+    width: 48%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Text-container{
+    width: 50%;
+}
+
+.Rating-container{
+    float: right;
+    background-color: rgb(236, 236, 236);
+    width: 48%;
+    height: 120px;
+}
+
+.Hotel-Nombre-container{
+    height: 50%;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.Hotel-Ubicacion-container{
+    height: 50%;
+    margin-left: 3%;
+}
+
+.Hotel-Image-container{
+    max-height:100%;
+    padding: 10px;
+
+}
+
+.Hotel-image{
+    max-height: 100%;
+    width: 100%;
+}
+
+.Hotel-Nombre{
+    font-weight: bold;
+}
+
+.Hotel-Ubicacion{
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.Puntuacion, .Anonimo{
+    font-size: 90%;
+}
+
+#Hotel-Rating{
+    font-size: 100%;
+}
+
+.Puntuacion-container{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.Anonimo-container{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    padding: 20px;
+}
